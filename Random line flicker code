@@ -3,8 +3,11 @@ function setup() {
 }
 
 function draw() {
-  background(0);
-  strokeWeight(1);
+
+strokeWeight(1);
 stroke(255);
-  line(random(0,400),random(0,400),random(0,400),random(0,400))
+  line(mouseX,mouseY,random(0,400),random(0,400))
+ strokeWeight(1);
+stroke(255);
+line(mouseX,mouseY,random(0,400),random(0,400))
 }
